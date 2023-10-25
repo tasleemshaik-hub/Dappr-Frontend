@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.webpage{
+    background: #FFF;
+    height: 100vh;
+    width:98vw;
+    position: absolute;
+}
+.nav{
+    height: 127px;
+    width: 100%;
+    background: #6F6AF7;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    color: #FFF;
+    font-family: Delius Unicase;
+    font-size: 61.43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    padding-left: 40px;
+}
+.links {
+    display: flex;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 36.43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#More{
+    background-color:#6F6AF7 ;
+    border-width: 0px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 36.43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.input_search{
+    width: 314px;
+    height: 57px;
+    border-radius: 63px;
+    padding-left: 22px;
+    background-image: url("search.svg");
+    background-repeat: no-repeat;
+    background-position: 280px;
+}
+.hamburger{
+    width: 67px;
+    height: 46.605px;
+    margin-right: 40px;
+
+}
+.container{
+    padding-top: 175px ;
+    padding-bottom: 37px;
+    
+}
+.main{
+    height:80vh;
+    width:98vw;
+    padding-left: 130px;
+    
+}
+.mainhead{
+    display: flex;
+    height: 65%;
+    width:100%;
+
+}
+.mainheadleft{
+    width: 35%;
+    height: 100%;
+    border-radius: 20px;
+    background: url("codeimg.png"), lightgray 50% / cover no-repeat;
+    margin-right: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainheadmiddle{
+    width: 100%;
+    height: 100%;
+}
+input.randomtext{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    border: 6px solid #FFF;
+    background: #E5D8FF;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 29px; 
+    padding: 0px 16px 250px 34px;
+}
+.randomtext::placeholder{
+    text-wrap: wrap;
+}
+.mainheadright{
+    margin-top: 80vh;
+    position: sticky;
+    top:8px;
+    float: right;
+}
+.mainheadright img{
+    width: fit-content;
+    height: 40px;
+}
+.logo1{
+
+    border-radius: 11px;
+    border: 3px solid #000;
+    background: #FFF;
+}
+.mainfoot{
+    margin:60px 102px 10px 0px;
+}
+.foot{
+    margin-top: 70px;
+    height:58vh;
+    width:83vw;
+    border-radius: 21px;
+    background: #483EFF;
+    display: flex;
+    margin-left: 130px;
+    
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90.7%;
+    letter-spacing: 1.16px;
+}
+.list1{
+    width: 220px;
+    height: 70px;
+    border-radius: 11px;
+    background: #929DFF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    padding:15px 0px 0px 15px;
+}
+.list2{
+    width: 220px;
+    height: 70px;
+    border-radius: 11px;
+    background: #734CF2;;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    padding:15px 0px 0px 15px;
+}
+.list3{
+    width: 225px;
+    height: 70px;
+    border-radius: 11px;
+    background: #D288FF;;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    padding:15px 0px 0px 15px;
+}
+.list4{
+    width: 225px;
+    height: 70px;
+    border-radius: 11px;
+    background: #000;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    padding:15px 0px 0px 15px;
+}
+
+.footerleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 25px 10px 25px;
+}
+.info{
+    width: 300px;
+    height: 80px;
+    border-radius: 22px;
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    color: #000;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.7%; /* 62.545px */
+    letter-spacing: 1.4px;
+    text-align: center;
+    padding-top: 30px;
+}
+.bookmarks{
+    width: 300px;
+    height: 80px;
+    border-radius: 22px;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.7%; /* 62.545px */
+    letter-spacing: 1.4px; 
+    text-align: center; 
+    color: #FFF;  
+    border: 5px solid #FFF;
+    padding-top: 30px;
+}
+.settings{
+    width: 300px;
+    height: 80px;
+    border-radius: 22px;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.7%; /* 62.545px */
+    letter-spacing: 1.4px;  
+    text-align: center;  
+    color: #FFF;
+    border: 5px solid #FFF;
+    padding-top: 30px;
+}
+.footerright{
+    border-radius: 19px;
+    background: #FFF;
+    width: 100%;
+    height: 90%;
+    margin: 20px 20px 20px 20px;
+    padding: 40px 50px 80px 70px;
+}
+.yourinfo{
+    color: #04285A;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.99px;
+    width: 370px;
+    height: 66px;
+    margin-bottom: 18px;
+}
+.details{
+    display: flex;
+    gap:10px;
+    position: relative;
+}
+.listinfo{
+    width: 85px;
+height: 136px;
+color: #04285A;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2.94px;
+}
+.colon{
+    color: #04285A;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 78.687%; 
+letter-spacing: 2.73px;
+width: 11px;
+height: 136px;
+
+}
+.persondata{
+    color: #143565;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.2px;
+width: 153px;
+height: 22px;
+}
+.help{
+    position: fixed;
+    right:20px;
+    bottom:10px;
+    width:fit-content;
+    height:20vh
+}
+.next{
+    background-color: black;
+    
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 6px;
+    position: absolute;
+    right: 5px;
+    top: 150px;
+}
+
+.next img{
+    width: 20px;
+    margin-left: 7px;
+}
